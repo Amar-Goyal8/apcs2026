@@ -1,0 +1,54 @@
+# GitHub Student Profile
+
+This project will introduce you to Git and GitHub.
+
+You will:
+
+1. Clone this repository to your computer.
+2. Add information about yourself.
+3. Commit your changes.
+4. Push your changes to GitHub.
+5. Make another change.
+6. Commit and push again.
+7. Look at your commit history.
+
+## Important Git Concepts
+
+### Repository
+A project that Git is tracking.
+
+### Clone
+Makes a copy of a repository on your computer.
+
+### Commit
+Creates a snapshot of your changes.
+
+### Push
+Sends your commits from your computer to GitHub.
+
+### Pull
+Gets changes from GitHub onto your computer.
+
+## Your Assignment
+
+### Part 1 — Create Your Profile
+
+Edit `profile.txt` and add your information.
+
+Save the file.
+
+Open GitHub Desktop and look at the changes Git detected.
+
+Commit your changes with the message:
+
+`Added my profile`
+
+Push your commit to GitHub.
+
+### Part 3 — Look at Your History
+
+Go to your repository on GitHub.
+
+Find the section showing your commits.
+
+You should see at least two commits.
