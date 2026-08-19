@@ -4,3 +4,4 @@ Favorite Programming Language: Swift
 Favorite Thing About Computer Science: vibe coding
 Something I Am Good At: vibe coding
 Something I Want To Learn: c++
+Something we should do: vibe code
