@@ -1,6 +1,6 @@
-Name:
-Grade:
-Favorite Programming Language:
-Favorite Thing About Computer Science:
-Something I Am Good At:
-Something I Want To Learn:
+Name: Amar Goyal
+Grade: 10
+Favorite Programming Language: Swift
+Favorite Thing About Computer Science: vibe coding
+Something I Am Good At: vibe coding
+Something I Want To Learn: c++
