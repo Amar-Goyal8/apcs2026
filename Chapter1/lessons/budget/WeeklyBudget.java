@@ -2,10 +2,11 @@
 /**
  * Weekly Budget
  * Amar
- * Last Updated: 8/21/2026
+ * Last Updated: 8/25/2026
  */
 
 import java.util.Scanner;
+import java.text.NumberFormat;
 public class WeeklyBudget
 {
     // Calculate weekly lunch spending and remaining money
@@ -14,6 +15,8 @@ public class WeeklyBudget
         String name;
         double allowance, lunchPrice, totalCost, remaining;
         int lunchesPerWeek;
+        
+        NumberFormat money = NumberFormat.getCurrencyInstance();
         
         // Instantiate the Scanner object to read form the keyboard
         Scanner scan = new Scanner(System.in);
@@ -34,9 +37,12 @@ public class WeeklyBudget
         totalCost = lunchPrice * lunchesPerWeek;
         remaining = allowance - totalCost;
         
-        System.out.println(allowance);
-        System.out.println(totalCost);
-        System.out.println(remaining);
+        //printf allows placeholders for strings using %s
+        System.out.printf("%n--- Weekly Budget Summary for %s ---%n", name);
+        
+        System.out.printf("%-25s %s%n", "Weekly Allowance:", money.format(allowance));
+        System.out.printf("%-25s %s%n", "Total Spent on Lunches:", money.format(totalCost));
+        System.out.printf("%-25s %s%n", "Remaining Balance:", money.format(remaining));
 
     }
 }
